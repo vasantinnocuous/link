@@ -8,7 +8,6 @@ import (
     "github.com/PuerkitoBio/goquery"
 )
 
-
 func processElement(index int, element *goquery.Selection) {
  
     href, exists := element.Attr("href")
